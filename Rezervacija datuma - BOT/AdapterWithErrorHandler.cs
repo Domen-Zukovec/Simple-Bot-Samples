@@ -14,7 +14,7 @@ namespace Microsoft.BotBuilderSamples
     {
         public AdapterWithErrorHandler(BotFrameworkAuthentication auth, ILogger<IBotFrameworkHttpAdapter> logger, ConversationState conversationState = default)
             : base(auth, logger)
-        {
+        { 
             OnTurnError = async (turnContext, exception) =>
             {
                 // Log any leaked exception from the application.
