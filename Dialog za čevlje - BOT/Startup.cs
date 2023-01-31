@@ -59,7 +59,7 @@ namespace Microsoft.BotBuilderSamples
                 {
                     endpoints.MapControllers();
                 });
-
+            //what is this?
             // app.UseHttpsRedirection();
         }
     }
